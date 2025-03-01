@@ -30,7 +30,7 @@ All components interact with a shared bus, which carries a number of specific si
 
 
 Index | Name             | Signals
-------+------------------+--------
+------|------------------|-----
 R0    | X Position       | X
 R1    | Y Position       | Y
 R2    | Clock State      | F1, F2, Z1-5
@@ -47,7 +47,7 @@ Implementation Notes
 Frame Tick Scheduling:
 
 F2 | X Source | Y Source | Sprite Data Source
----+----------+----------+--------------------
+---|----------|----------|--------------------
 0  | PacMan   |          |
 1  | Ghost 1  |          | PacMan
 2  | Ghost 2  |          | Ghost 1
