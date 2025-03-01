@@ -1,0 +1,10 @@
+*
+!*/
+!/.gitignore
+
+!/assets/*.png
+
+!/main.py
+!/README.md
+!/requirements.txt
+!/PacMan.zip
